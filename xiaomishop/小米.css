@@ -1,0 +1,220 @@
+a,p,ul,ul li,h1{
+    padding: 0px;
+    margin: 0px;
+
+}
+ul li{
+    list-style: none;
+}
+body{
+    background-color: #F6F6F6;
+}
+/*底部导航条*/
+.navbar-fixed-bottom{
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-fixed-bottom li{
+    padding: 10px 0px;
+}
+.navbar-fixed-bottom a{
+    border: none;
+}
+.navbar-fixed-bottom a:hover{
+    color: orange;
+}
+/*2.商品导航条*/
+#home nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+#home nav div{
+    border: 1px solid gray;
+    width: 60%;
+    margin: 0px 10px;
+}
+#home nav div span{
+    padding:10px; 
+}
+#home nav div input{
+    border: none;
+    font-size: 16px;
+}
+#home nav a{
+    font-size: 2rem;
+}
+
+/*3和4和5的导航条*/
+.center{
+    background-color: #F0F0F0;
+}
+.center div{
+    width: 100%;
+    height: 50px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center div a img{
+    height: 30px;
+}
+.center div span{
+    font-size: 2rem;
+    color: gray;
+}
+/*2.1轮播图*/
+#carousel-example-generic{
+    margin: 52px 0px 5px 0px;
+}
+.item img{
+    width: 100%;
+}
+/*2.2现货*/
+.cash{
+    width: 98%;
+    background-color: #F6F6F6;
+    text-align: center;
+    margin: 10px auto;
+}
+.cash img{
+    width: 31%;
+    margin: 0px 1px;
+}
+/*2.3热卖*/
+.red{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 2px 0px;
+}
+
+.red .red_img{
+    width: 40%;
+    position: relative;
+}
+.red  .red_img .hots{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:30%;
+    left: 28%;
+}
+.red .red_img img{
+    width: 100%;
+}
+.red .red_content{
+    width: 60%;
+    padding: 10px 0px;
+}
+h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.red .red_content span{
+    color: red;
+}
+/*3.1分类内容*/
+.phones{
+    width: 95%;
+    background-color: white;
+    
+}
+.phones div{
+    text-align: center;
+    padding: 10px;
+}
+.phones figure{
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+.phones figure img{
+    width: 100%;
+ }
+ /*4购物车*/
+ .jingtanhao{
+     width: 100%;
+     margin: 51px 0px 10px 0px;
+ }
+ .jingtanhao img{
+     width: 100%;
+ }
+.buttons{
+    width: 100%;
+    text-align: center;
+}
+.buttons button{
+    width: 40%;
+    height: 50px;
+    border: 1px solid gray;
+}
+/*5.服务*/
+.denglu{
+    margin-top:51px;
+    width: 100%;
+    height: 80px;
+    background-color:#FE5720;
+    text-align: center;
+    position: relative;  
+}
+.denglu h1{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+.denglu>div{
+    width: 80px;
+    height: 80px;
+    background-color: #FDD24F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 40px);
+}
+.denglu>div div{
+    color: white;
+    font-size: 40px;
+}
+.dingdan{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dingdan .dingdan_content{
+    padding-top: 40px;  
+    text-align: center;
+    width: 33%;
+   
+    
+}
+.dingdan .dingdan_content span{
+    font-size: 30px;
+}
+.dingdan .tiao{
+    display: block;
+    width: 20%;
+    background-color: black;
+    margin: 10px;
+    margin-left:40%; 
+    padding: 1px 5px;
+}
+.footer{
+    width: 100%;
+    background-color: white;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+.footer span{
+    padding: 10px;
+    color: black;
+}
